@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-mijzelf{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 150rem;
+}
+.container-mijzelftext{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+.imagevanmijzelf{
+    width: 35rem;
+}
+
+.volg{
+    width: 15rem;
+    justify-content: center;
+    margin: 15px auto;
+    background-color: rgba(33, 37, 41, 1);
+    border-radius: 15px;
+    font-size: 50px;
+}
+.volg a{
+    color: white;
+    text-decoration: none;
+}
