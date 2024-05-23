@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: rgb(33, 37, 41, 1);
+}
 .container-mijzelf{
     margin-top: 100px;
     display: flex;
@@ -12,20 +15,33 @@
     display: flex;
     flex-direction: column;
     width: 30rem;
+    color: white;
 }
 .imagevanmijzelf{
-    width: 35rem;
+    width: 45rem;
+    height: 45rem;
 }
 
 .volg{
-    width: 15rem;
+    display: flex;
     justify-content: center;
     margin: 15px auto;
-    background-color: rgba(33, 37, 41, 1);
     border-radius: 15px;
-    font-size: 50px;
 }
 .volg a{
-    color: white;
+    color: rgb(33, 37, 41, 1);
     text-decoration: none;
+}
+i{
+    font-size: 50px;
+    margin: 50px;
+}
+#linkedinicon {
+    font-size: 50px;
+    color: #F9F871;
+}
+.container-icons{
+display: flex;
+justify-content: center;
+color: #F9F871;
 }

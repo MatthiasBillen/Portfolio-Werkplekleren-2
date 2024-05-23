@@ -20,3 +20,16 @@ img{
     width: 50rem;
     margin: 15px;
 }
+#main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Adjust width if needed */
+    transition: all 0.5s ease; /* Smooth transition effect */
+    z-index: 10;  /* Ensure the nav stays on top */
+  }
+  
+  #main-nav.hidden {
+    opacity: 0;  /* Hide the nav with transparency */
+    transform: translateY(-100%); /* Move the nav off-screen */
+  }
