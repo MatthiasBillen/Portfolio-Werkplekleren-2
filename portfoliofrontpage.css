@@ -18,8 +18,9 @@ body{
     color: white;
 }
 .imagevanmijzelf{
-    width: 45rem;
-    height: 45rem;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 15%;
 }
 
 .volg{
