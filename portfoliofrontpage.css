@@ -34,14 +34,19 @@ body{
 }
 i{
     font-size: 50px;
-    margin: 50px;
+    margin: 35px;
 }
 #linkedinicon {
     font-size: 50px;
-    color: #F9F871;
+    color: lightgreen;
 }
 .container-icons{
 display: flex;
 justify-content: center;
-color: #F9F871;
+color: lightgreen;
+}
+.container-icons2{
+display: flex;
+justify-content: center;
+
 }
