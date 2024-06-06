@@ -5,3 +5,21 @@
 body{
     background: rgb(33, 37, 41, 1);
 }
+#linkedinicon {
+    font-size: 50px;
+    color: lightgreen;
+}
+i{
+    font-size: 50px;
+    margin: 35px;
+}
+.container-icons{
+    display: flex;
+    justify-content: center;
+    color: lightgreen;
+    }
+    .container-icons2{
+        display: flex;
+        justify-content: center;
+        
+        }
