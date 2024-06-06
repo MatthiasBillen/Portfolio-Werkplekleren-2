@@ -8,13 +8,44 @@ body{
 p{
     color: white;
     display: flex;
+    justify-content: center;
+    max-width: 50rem;
+    text-align: center;
 }
+#linkedinicon {
+    font-size: 50px;
+    color: lightgreen;
+}
+i{
+    font-size: 50px;
+    margin: 35px;
+}
+.container-icons{
+    display: flex;
+    justify-content: center;
+    color: lightgreen;
+    }
+    .container-icons2{
+        display: flex;
+        justify-content: center;
+        
+        }
 h1{
     color: white;
+    margin-top: 15px;
 }
 .introductie{
     display: flex;
     margin-top: 150px;
     flex-direction: column;
     align-items: center;
+}
+object{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+}
+.pichtpowerpoint{
+    display: flex;
+    justify-content: center;
 }
