@@ -23,6 +23,11 @@ img{
     width: 50rem;
     margin: 15px;
 }
+object{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+}
 .container-icons2{
     display: flex;
     justify-content: center;
