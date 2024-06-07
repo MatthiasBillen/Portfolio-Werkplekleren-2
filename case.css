@@ -41,8 +41,15 @@ img{
     }
     .container-icons2{
         display: flex;
-        justify-content: center;
-        
+        justify-content: space-evenly;
+        }
+        #linkedinicon {
+            font-size: 50px;
+            color: lightgreen;
+        }
+        #favorite{
+            font-size: 50px;
+            color: lightgreen;
         }
 h1{
     color: white;

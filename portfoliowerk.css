@@ -23,6 +23,10 @@ img{
     width: 50rem;
     margin: 15px;
 }
+i{
+    font-size: 50px;
+    margin: 35px;
+}
 object{
     width: 50rem;
     height: 50rem;
@@ -30,10 +34,13 @@ object{
 }
 .container-icons2{
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-evenly;
     }
     #linkedinicon {
+        font-size: 50px;
+        color: lightgreen;
+    }
+    #favorite{
         font-size: 50px;
         color: lightgreen;
     }
