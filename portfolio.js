@@ -1,12 +1,22 @@
-let vorigeScrollPos = window.pageYOffset;
-window.onscroll = function() {
-  let huidigeScrollPos = window.pageYOffset;
-  if (vorigeScrollPos > huidigeScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
-  }
-  vorigeScrollPos = huidigeScrollPos;
-}
- 
-  
+const icons = document.querySelectorAll('.container-icons2 i');
+
+icons.forEach(icon => {
+  icon.addEventListener('mouseover', () => {
+    icon.style.color = '#FFFF99'; 
+  });
+
+  icon.addEventListener('mouseout', () => {
+    icon.style.color = 'lightgreen';
+  });
+});
+const icons1 = document.querySelectorAll('.container-icons i');
+
+icons1.forEach(icon => {
+  icon.addEventListener('mouseover', () => {
+    icon.style.color = '#FFFF99'; 
+  });
+
+  icon.addEventListener('mouseout', () => {
+    icon.style.color = 'lightgreen';
+  });
+});
