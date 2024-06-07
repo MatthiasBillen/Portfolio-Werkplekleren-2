@@ -13,6 +13,36 @@ i{
     font-size: 50px;
     margin: 35px;
 }
+h1{
+    margin-top: 25px;
+    color:white;
+}
+h2{
+    color: white;
+
+}
+p{
+    color: white;
+}
+.softskillreflectie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 42rem;
+}
+.verloopreflectie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40rem;
+}
+.reflectie{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
 .container-icons{
     display: flex;
     justify-content: center;
